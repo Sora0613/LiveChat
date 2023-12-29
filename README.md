@@ -10,6 +10,7 @@ $ npm install && npm run dev
 
 ## Demo
 
+![livechat](https://github.com/Sora0613/LiveChat/assets/28401023/c67dde33-f205-4f92-a54b-d68395697083)
 
 
 ## References
