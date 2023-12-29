@@ -14,7 +14,7 @@ $ npm install && npm run dev
 
 ## References
 
-以下のページを参考にしています。
+以下のページを参考にさせていただきました。
 
 - https://qiita.com/Alesion30/items/dddb3f162e60b16fdc6d
 - https://laraweb.net/surrounding/4991/
