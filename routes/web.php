@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [MessageController::class, 'index'])->name('home');
+Route::post('/send', [MessageController::class, 'send'])->name('send');
+Route::get('/messages', [MessageController::class, 'getData'])->name('getData');
